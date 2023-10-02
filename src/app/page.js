@@ -2,7 +2,7 @@ import CardFilme from '@/components/CadFilme'
 import Title from '@/components/Title'
 import NavBar from '@/components/NavBar'
 
-NEXTAUTH_URL="https://pokemon-tcgc-ards-35a07hooj-henriques-projects-4cc53b50.vercel.app"
+NEXTAUTH_URL="https://pokemon-tcgc-ards.vercel.app"
 async function carregarFilmes(){
   const url = "http://localhost:8080/cards"
   const resposta = await fetch(url)
