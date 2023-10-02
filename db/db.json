@@ -1,0 +1,53 @@
+{
+  "cards": [
+    {
+      "id": "dp3-1",
+      "name": "Ampharos",
+      "artist": "Kouki Saitou",
+      "rarity": "Holo"
+    },
+    {
+      "id": "ex12-1",
+      "name": "Aerodactyl",
+      "artist": "Hajime Kusajima"
+    },
+    {
+      "id": "mcd19-1",
+      "name": "Caterpie",
+      "artist": "Sekio"
+    },
+    {
+      "id": "ex7-1",
+      "name": "Azumarill",
+      "artist": "Sumiyoshi Kizuki"
+    },
+    {
+      "id": "sm9-1",
+      "name": "Celebi & Venusaur-GX",
+      "artist": "Mitsuhiro Arita"
+    },
+    {
+      "id": "pl1-2",
+      "name": "Blastoise",
+      "artist": "Kagemaru Himeno"
+    },
+    {
+      "id": "ex3-2",
+      "name": "Altaria",
+      "artist": "Atsuko Nishida"
+    },
+    {
+      "id": "sm9-2",
+      "name": "Weedle",
+      "artist": "Shibuzoh"
+    },
+    {
+      "id": "mcd19-2",
+      "name": "Alolan Exeggutor",
+      "artist": "Satoshi Shirai"
+    }
+  ],
+  "adquirido": [
+    {}
+  ]
+}
