@@ -4,7 +4,7 @@ import NavBar from '@/components/NavBar'
 
 //NEXTAUTH_URL="https://pokemon-tcgc-ards.vercel.app"
 async function carregarFilmes(){
-  const url = "http://localhost:8080/cards"
+  const url = "https://api-cartas.vercel.app/cards"
   const resposta = await fetch(url)
   const json = await resposta.json()
   return json
