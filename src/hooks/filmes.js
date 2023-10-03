@@ -28,7 +28,7 @@ export default function useFavorito(){
             method: 'DELETE'
         };
         
-        fetch(`https://api-cartas.vercel.app/adquirido${filme.id}`, options)
+        fetch(`https://api-cartas.vercel.app/adquirido/${filme.id}`, options)
             .then(response => response.json())
             .then(response => console.log(response))
             .catch(err => console.error(err));
