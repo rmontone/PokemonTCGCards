@@ -16,7 +16,7 @@ export default function useFavorito(){
             body: JSON.stringify({id: filme.id, card: filme, })
         };
         
-        fetch('http://localhost:8080/adquirido', options)
+        fetch('https://api-cartas.vercel.app/adquirido', options)
             .then(response => response.json())
             .then(response => console.log(response))
             .catch(err => console.error(err));
@@ -28,7 +28,7 @@ export default function useFavorito(){
             method: 'DELETE'
         };
         
-        fetch(`http://localhost:8080/adquirido/${filme.id}`, options)
+        fetch(`https://api-cartas.vercel.app/adquirido${filme.id}`, options)
             .then(response => response.json())
             .then(response => console.log(response))
             .catch(err => console.error(err));
